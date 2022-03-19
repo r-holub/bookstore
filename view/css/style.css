@@ -1,0 +1,80 @@
+table {
+	table-layout: fixed
+}
+
+section:not(:last-child) {
+	margin-bottom: 64px;
+}
+
+section:first-child {
+	margin-top: 40px;
+}
+
+#block-add-new {
+	margin: 40px auto 64px;
+}
+
+#block-add-new form .row:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+#block-add-new form label {
+	margin-bottom: 5px;
+}
+
+#form-add-book .form-control.error {
+	outline: 3px solid #ff2121;
+}
+
+#form-add-book .error-field,
+#form-add-book .success-field {
+	display: block;
+}
+
+#form-add-book .error-field {
+	color: #ff2121;
+    font-size: 12px;
+}
+
+#form-add-book .success-field {
+	margin-top: 5px;
+    color: #20ff20;
+    font-size: 18px;
+}
+
+#form-add-book textarea {
+	height: 180px;
+	resize: none;
+}
+
+#confirm-delete .modal-header,
+#confirm-delete .modal-body {
+	color: #545454;
+    text-shadow: none;
+}
+
+#confirm-delete .modal-body .book-title {
+	color: #76aaff
+}
+
+#block-our-books th:first-child,
+#block-our-books td:first-child {
+	width: 120px;
+}
+
+#block-our-books th:nth-child(2),
+#block-our-books td:nth-child(2),
+#block-our-books th:nth-child(3),
+#block-our-books td:nth-child(3) {
+	width: 100px;
+}
+
+#block-our-books th:nth-child(4),
+#block-our-books td:nth-child(4) {
+	width: 105px;
+}
+
+#block-our-books th:nth-child(6),
+#block-our-books td:nth-child(6) {
+	width: 90px;
+}
